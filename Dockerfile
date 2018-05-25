@@ -6,7 +6,7 @@ FROM node:7.8.0
 ENV NPM_CONFIG_LOGLEVEL warn
 
 # Copy all local files into the image.
-RUN  git clone https://github.com/TampereTC/tre-smartcity-frontEnd && \
+RUN  git clone https://github.com/arenko1/tre-smartcity-frontEnd && \
 	 cd tre-smartcity-frontEnd
 
 WORKDIR tre-smartcity-frontEnd
