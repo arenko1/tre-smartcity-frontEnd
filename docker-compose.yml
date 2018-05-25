@@ -58,7 +58,7 @@ services:
         - "3001:3001"
 
  frontend:
-    image: tamperetc/tre-smartcity-frontend:latest
+    image: arenko/tre-smartcity-frontend:latest
     hostname: frontend
     container_name: frontend
     links:
